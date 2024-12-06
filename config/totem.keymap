@@ -39,18 +39,18 @@
     // /delete-property/ ignore-modifiers; // mods deactivate, requires PR #1451
     /delete-property/ ignore-numbers;
     continue-list = <BACKSPACE ENTER DELETE UNDERSCORE MINUS>;
-}
+};
 
 // key-repeat config
 &key_repeat {
     usage-pages = <HID_USAGE_KEY HID_USAGE_CONSUMER>; // repeat all keys
-}
+};
 
 // default layer-tap config
 &lt {  
     flavor = "balanced";
     tapping-term-ms = <200>;
-}
+};
 
 // &mt {
 //   quick-tap-ms = <100>;
@@ -62,7 +62,7 @@
 &mt {
   flavor = "balanced";
   tapping-term-ms = <200>;
-}
+};
 
 
 /     keymap {
