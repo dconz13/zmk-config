@@ -52,18 +52,18 @@
     tapping-term-ms = <200>;
 };
 
-// &mt {
-//   quick-tap-ms = <100>;
-//   global-quick-tap;
-//   flavor = "tap-preferred";
-//   tapping-term-ms = <170>;
-// }
-
 &mt {
+  quick-tap-ms = <100>;
+  global-quick-tap;
+  flavor = "tap-preferred";
+  tapping-term-ms = <170>;
+}
+
+/* &mt {
   flavor = "balanced";
   tapping-term-ms = <200>;
 };
-
+ */
 
 /  {
 
