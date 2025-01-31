@@ -19,11 +19,11 @@
 #define FUN 4
 #define UTIL 5
 
-#define S_UNDO &kp LC(Z)
-#define S_CUT &kp LC(X)
-#define S_COPY &kp LC(C)
-#define S_PASTE &kp LC(V)
-#define S_REDO &kp LS(LC(Z))
+#define S_UNDO &kp LG(Z)
+#define S_CUT &kp LG(X)
+#define S_COPY &kp LG(C)
+#define S_PASTE &kp LG(V)
+#define S_REDO &kp LS(LG(Z))
 
 // navigation bindings for back/forward and prev tab/next tab
 #define PTAB &kp LS(LC(TAB))
