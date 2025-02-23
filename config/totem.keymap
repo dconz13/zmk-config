@@ -80,6 +80,7 @@ MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
 
 // Tap: repeat after alpha, else sticky-shift |
 // Shift + tap/ double-tap: caps-word | Hold: shift.
+/*
 #define MAGIC_SHIFT &magic_shift LSHFT 0
 
 ZMK_HOLD_TAP(magic_shift, bindings = <&kp>, <&magic_shift_tap>;
@@ -97,6 +98,8 @@ ZMK_ADAPTIVE_KEY(
       max-prior-idle-ms = <1200>;
       strict-modifiers;
     };)
+
+*/
 
 / {
     behaviors {
