@@ -78,29 +78,6 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 // special HRMs for the right meh key, as it involves a modmorph
 MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
 
-// Tap: repeat after alpha, else sticky-shift |
-// Shift + tap/ double-tap: caps-word | Hold: shift.
-/*
-#define MAGIC_SHIFT &magic_shift LSHFT 0
-
-ZMK_HOLD_TAP(magic_shift, bindings = <&kp>, <&magic_shift_tap>;
-             flavor = "balanced"; tapping-term-ms = <200>;
-             quick-tap-ms = <QUICK_TAP_MS>;)
-
-ZMK_MOD_MORPH(magic_shift_tap, bindings = <&shift_repeat>, <&caps_word>;
-              mods = <(MOD_LSFT)>;)
-
-ZMK_ADAPTIVE_KEY(
-    shift_repeat, bindings = <&sk LSHFT>;
-    repeat {
-      trigger-keys = <A B C D E F G H I J K L M N O P Q R S T U V W X Y Z>;
-      bindings = <&key_repeat>;
-      max-prior-idle-ms = <1200>;
-      strict-modifiers;
-    };)
-
-*/
-
 / {
     behaviors {
         // tap: dot | shift + tap: colon | shift + control + tap: greater_than
@@ -153,7 +130,7 @@ ZMK_ADAPTIVE_KEY(
             bindings = <
             ___          ___          ___             ___             ___                &kp INS       &kp HOME          &kp UP          &kp END       &kp PAGE_UP 
             &kp LCTRL     &kp LALT     &kp LGUI       &kp LSHFT       ___                ___           &kp LEFT          &kp DOWN        &kp RIGHT     &kp PAGE_DOWN
-    BACK    ___           ___          &kp MEH         &kp HYP         ___                ___          &kp TILDE         ___             &kp FSLH      ___             FWD
+    BACK    ___           ___          &kp MEH         &kp HYP         ___                ___          &kp GRAVE         ___             &kp FSLH      ___             FWD
                                        ___            ___             ___                &kp RET       &kp BSPC          &kp DEL
             >;
         }; 
