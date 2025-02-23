@@ -143,7 +143,7 @@ ZMK_ADAPTIVE_KEY(
             &kp Q         &kp W         &kp F            &kp P            &kp B              &kp J         &kp L              &kp U            &kp Y         &kp APOS 
             &hml LCTRL A  &hml LALT R   &hml LGUI S      &hml LSHFT T     &kp G              &kp M         &hmr RSHFT N       &hmr RGUI E      &hmr LALT I   &hmr RCTRL O
 &kp TAB    &kp Z         &kp X         &hml MEH C       &hml HYP D       &kp V              &kp K         &hmr HYP H         &hmr_meh MEH 0   &dot_morph    &qexcl        &kp TAB
-                                        &lt UTIL ESC     &lt NAV SPACE    MAGIC_SHIFT       &kp RET       &lt NUM BSPC       &lt FUN DEL
+                                        &lt UTIL ESC     &lt NAV SPACE    &sk LSHFT       &kp RET       &lt NUM BSPC       &lt FUN DEL
             >;
         };
         nav_layer { 
