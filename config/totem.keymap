@@ -122,7 +122,7 @@ MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
             bindings = <
             &kp Q         &kp W         &kp F            &kp P            &kp B              &kp J         &kp L              &kp U            &kp Y         &kp APOS 
             &hml LCTRL A  &hml LALT R   &hml LGUI S      &hml LSHFT T     &kp G              &kp M         &hmr RSHFT N       &hmr RGUI E      &hmr LALT I   &hmr RCTRL O
-&kp TAB    &kp Z         &kp X         &hml MEH C       &hml HYP D       &kp V              &kp K         &hmr HYP H         &hmr_meh MEH 0   &dot_morph    &qexcl        &kp TAB
+&kp TAB    &kp Z         &kp X         &hml MEH C       &hml HYP D       &kp V              &kp K         &hmr HYP H         &hmr_meh MEH 0   &dot_morph    &kp FSLH      &kp TAB
                                         &lt UTIL ESC     &lt NAV SPACE    &sk LSHFT       &kp RET       &lt NUM BSPC       &lt FUN DEL
             >;
         };
@@ -130,7 +130,7 @@ MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
             bindings = <
             ___          ___          ___             ___             ___                &kp INS       &kp HOME          &kp UP          &kp END       &kp PAGE_UP 
             &kp LCTRL     &kp LALT     &kp LGUI       &kp LSHFT       ___                ___           &kp LEFT          &kp DOWN        &kp RIGHT     &kp PAGE_DOWN
-    BACK    ___           ___          &kp MEH         &kp HYP         ___                ___          &kp GRAVE         ___             &kp FSLH      ___             FWD
+    BACK    ___           ___          &kp MEH         &kp HYP         ___                ___          &kp GRAVE         ___             ___      ___             FWD
                                        ___            ___             ___                &kp RET       &kp BSPC          &kp DEL
             >;
         }; 
@@ -146,7 +146,7 @@ MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
             bindings = <
             &kp F12      &kp F7       &kp F8          &kp F9          ___                ___           ___               ___             ___           ___
             &kp F11      &kp F4       &kp F5          &kp F6          ___                ___           &kp LSHFT         &kp LGUI        &kp LALT      &kp LCTRL 
-  &kp LPAR  &kp F10      &kp F1       &kp F2          &kp F3          ___                ___           &kp HYP           &kp MEH         ___           ___             &kp RPAR
+  ___  &kp F10      &kp F1       &kp F2          &kp F3          ___                ___           &kp HYP           &kp MEH         ___           ___             ___
                                       ___             ___             ___                ___           ___               ___
             >;
         };
