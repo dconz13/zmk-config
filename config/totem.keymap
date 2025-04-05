@@ -121,10 +121,9 @@ MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
         compatible = "zmk,combos";
         combo_osrs {
             timeout-ms = <50>;
-            key-positions = <20 RB5>;
+            key-positions = <20 31>;
             bindings = <&to OSRS>;
         };
-
     };
     keymap {
         compatible = "zmk,keymap";
