@@ -120,7 +120,7 @@ MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
     combos {
         compatible = "zmk,combos";
         combo_osrs {
-            timeout-ms = <50>;
+            timeout-ms = <QUICK_TAP_MS>;
             key-positions = <20 31>;
             bindings = <&to OSRS>;
         };
@@ -172,7 +172,7 @@ MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
             &kp N1     &kp N2       &kp N3          &kp  N4         &kp N5           ___           ___               ___             ___           ___ 
             &kp A      &kp R        &kp S           &kp  T          &kp G           ___           &kp LSHFT         &kp LGUI        &kp LALT      &kp LCTRL
   &kp TAB   &kp Z      &kp X        &kp C           &kp  D          &kp V           ___           &kp HYP           &kp MEH         ___           ___            &to BASE
-                                    &kp ESC       &kp  SPACE        &kp SHIFT           ___           ___               ___
+                                    &kp ESC       &kp  SPACE        &kp LSHFT           ___           ___               ___
             >;
         };
     };
