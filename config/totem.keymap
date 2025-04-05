@@ -123,7 +123,7 @@ MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
             timeout-ms = <50>;
             key-positions = <20 RB5>;
             bindings = <&to OSRS>;
-        }
+        };
 
     };
     keymap {
