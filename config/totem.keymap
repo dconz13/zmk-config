@@ -139,7 +139,7 @@ MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
             bindings = <
             ___          ___          ___             ___             ___                &kp INS       &kp HOME          &kp UP          &kp END       &kp PAGE_UP 
             &kp LCTRL     &kp LALT     &kp LGUI       &kp LSHFT       ___                ___           &kp LEFT          &kp DOWN        &kp RIGHT     &kp PAGE_DOWN
-    BACK    ___           ___          &kp MEH         &kp HYP         ___                ___          &kp GRAVE         ___             ___      ___             FWD
+&kp LCTRL LBKT    ___           ___          &kp MEH         &kp HYP         ___                ___          &kp GRAVE         ___             ___      		___	  &kp LCTRL RBKT
                                        ___            ___             ___                &kp RET       &kp BSPC          &kp DEL
             >;
         }; 
@@ -155,7 +155,7 @@ MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
             bindings = <
             &kp F12      &kp F7       &kp F8          &kp F9          ___                ___           ___               ___             ___           ___
             &kp F11      &kp F4       &kp F5          &kp F6          ___                ___           &kp LSHFT         &kp LGUI        &kp LALT      &kp LCTRL 
-  ___  &kp F10      &kp F1       &kp F2          &kp F3          ___                ___           &kp HYP           &kp MEH         ___           ___             ___
+&kp LBKT    &kp F10      &kp F1       &kp F2          &kp F3          ___                ___           &kp HYP           &kp MEH         ___           ___            &kp RBKT
                                       ___             ___             ___                ___           ___               ___
             >;
         };
@@ -163,7 +163,7 @@ MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
             bindings = <
             &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2    &bt BT_CLR      ___                ___           ___               &kp C_VOL_UP    ___           ___
             &kp LCTRL     &kp LALT     &kp LGUI       &kp LSHFT      ___                ___           ___                &kp C_VOL_DN    ___           ___ 
-    ___     ___          ___          ___             &kp HYP        ___                ___           ___               ___             ___           ___             ___
+&kp LBKT     ___          ___          ___             &kp HYP        ___                ___           ___               ___             ___           ___             &kp RBKT
                                       ___             ___             ___                ___           ___               &kp C_MUTE
             >;
         };
