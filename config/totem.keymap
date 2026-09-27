@@ -139,7 +139,7 @@ MAKE_HRM(hmr_meh, &kp, &comma_morph, KEYS_L THUMBS)
             bindings = <
             ___          ___          ___             ___             ___                &kp INS       &kp HOME          &kp UP          &kp END       &kp PAGE_UP 
             &kp LCTRL     &kp LALT     &kp LGUI       &kp LSHFT       ___                ___           &kp LEFT          &kp DOWN        &kp RIGHT     &kp PAGE_DOWN
-&kp LCTRL LBKT    ___           ___          &kp MEH         &kp HYP         ___                ___          &kp GRAVE         ___             ___      		___	  &kp LCTRL RBKT
+BACK    ___           ___          &kp MEH         &kp HYP         ___                ___          &kp GRAVE         ___             ___      		___	  FWD
                                        ___            ___             ___                &kp RET       &kp BSPC          &kp DEL
             >;
         }; 
